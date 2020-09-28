@@ -1,0 +1,82 @@
+.listWrap
+    position relative
+    li
+        background #fff
+        display flex  
+        align-items: center
+        margin 20px 0
+        padding 10px
+        height 100px
+        box-sizing: border-box
+        position relative
+        img.osImg 
+            width 80px
+            height 80px 
+        .itemInfos
+            width 670px
+            height 70px
+            overflow: hidden 
+            margin-left 10px
+            .infos_top
+                position: relative
+                display flex 
+                span 
+                    display flex 
+                    align-items: center 
+                    margin-right 15px
+                    font-size: 14px
+                    color #666
+                    i 
+                        margin-right 5px
+                        font-size 16px
+                        vertical-align: top
+                span.info_name
+                    color #00b4cf
+                    font-weight: 500
+                    i 
+                        color #666
+                span.info_idle
+                    padding: 0 5px
+                    color #fff
+                    background #ff9a2a
+                span.info_building 
+                    padding: 0 5px
+                    color #fff
+                    background #7fbc39
+            .infos_tags
+                position relative 
+                display flex 
+                margin-top 30px    
+                span 
+                    display flex 
+                    align-items: center 
+                    margin-right 10px
+                button 
+                    position absolute 
+                    right 10px 
+                    bottom: 0
+                span.addBtn
+                    display: inline-block
+                    font-size 18px
+                    color #fff
+                    cursor: pointer 
+                    background #00b4cf
+                    padding 0 5px
+                    box-sizing: border-box
+                    &:hover
+                        background #01869a
+                span.tagItem
+                    padding 2px 5px 
+                    background #efefef 
+                    color #2d4054 
+                    font-weight: 500
+                    i 
+                        margin-left 5px 
+                        cursor pointer
+                .tagWrap
+                    display: flex 
+                    width 500px
+                    flex-wrap: wrap
+                    height: 20px
+                    overflow: auto
+                    overflow-x: hidden

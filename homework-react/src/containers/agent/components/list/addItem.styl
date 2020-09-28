@@ -1,0 +1,52 @@
+.addItem
+    position: absolute
+    width 570px 
+    height 150px
+    padding 10px
+    left 85px
+    top 103px
+    background #fff 
+    border 1px solid #00b4cf;
+    box-shadow 0 3px 5px rgba(0,0,0,.3)
+    box-sizing: border-box
+    z-index 2
+    color #666
+    .close_btn
+        position absolute 
+        right 10px 
+        top 10px
+        color #00b4cf
+        font-size 20px
+        cursor pointer
+        &:hover
+            color #01869a
+    p
+        margin-top 10px
+    input 
+        width 550px
+        padding 2px 5px 
+        color #00b4cf 
+        border: 1px solid #666
+        margin 15px 0 25px 0
+        box-sizing: border-box
+        height 30px
+        text-indent 10px
+        &:focus
+            outline: none;
+            border: 1px solid #666
+    .buttons
+        color #fff 
+        display flex
+        button 
+            margin-right 10px
+    &:before
+        content:''
+        position: absolute
+        left: 20px
+        top: -8px
+        width: 14px;
+        height: 14px;
+        border-top: 1px solid #00b4cf;
+        border-right: 1px solid #00b4cf;
+        transform: rotate(-45deg);
+        background: #fff 
